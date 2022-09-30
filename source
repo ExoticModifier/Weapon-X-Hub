@@ -1,0 +1,93 @@
+--Made by Mods youtube Channel ExoticKiddo
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Weapon X Hub", "BloodTheme")
+
+--PLAYER
+local Main = Window:NewTab("Player")
+local MainSection = Main:NewSection("Player")
+
+
+MainSection:NewButton("Infinite Yeild", "FE Admin Commands", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+MainSection:NewButton("BackFlip", "Can backflip + frontflip by pressing a keybind that they tell you", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ExoticModifier/Tester/main/Flip",true))();
+end)
+
+MainSection:NewButton("Fly Custom Made", "you can fly by pressing the keybind (it gradually gets faster)", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ExoticModifier/Fly/main/Script",true))();
+end)
+
+MainSection:NewButton("Animations And Emotes", "Anyone Can See The Emotes And Animations", function()
+    loadstring(game:HttpGet(loadstring(game:HttpGet("https://gitlab.com/Tsuniox/lua-stuff/-/raw/master/R15GUI.lua"))(),true))();
+end)
+
+
+--GAME
+local Game = Window:NewTab("Games")
+local GameSection = Game:NewSection("Games")
+
+GameSection:NewButton("Bedwars", "OP Bedwars GUI", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+end)
+
+GameSection:NewButton("Da Hood", "Da Hood GUI", function()
+    loadstring(game:HttpGet("loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))()", true))()
+end)
+
+GameSection:NewButton("Doors", "OP Gui", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/OminousVibes-Exploit/Scripts/main/doors/main.lua"))()
+end)
+
+GameSection:NewButton("Hood Modded", "Chariotsware", function()
+    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Rippeed/DaHoodinary/main/chariotsware"))()
+end)
+
+GameSection:NewButton("Evade", "Evade script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ExoticModifier/Evade/main/source",true))();
+end)
+
+GameSection:NewButton("Be A Parkour Ninja", "Inf Jump + Hitbox", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Min1273/n-to/main/README.md"))()
+end)
+
+GameSection:NewButton("Be A Parkour Ninja OP", "No Cooldown kunai", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ExoticModifier/Kunai/main/source"))()
+end)
+
+GameSection:NewButton("Murder Mystery 2", "OP MM2 GUI", function()
+    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Drifter0507/GUIS/main/MURDER%20MYSTERY%202", true))();
+end) 
+
+GameSection:NewButton("Tower Of Hell", "Very Useful TOH GUI", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/dqvh/dqvh/main/SprinHub",true))()
+end) 
+
+GameSection:NewButton("Blox Fruits", "Has Autofarm And Other Functions", function()
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/AllScript.lua")()
+end)
+
+GameSection:NewButton("Arsenal", "OP Arsenal GUI", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/HonestlyDex/DexHub/main/Arsenal"))()
+end)
+
+GameSection:NewButton("BIG PaintBall UNLOCK ALL WEAPONS", "Unlocks all the weapon only when exectued", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/paintball"))()
+end)
+
+-- CREDITS
+local Credits = Window:NewTab("Credits")
+local CreditsSection = Credits:NewSection("Credits")
+
+CreditsSection:NewLabel("This Script Hub Was Made By Mods", function()
+    end)
+CreditsSection:NewLabel("Youtube Channel: Exotic Kiddo", function()
+    end)
+CreditsSection:NewLabel("Roblox Group Dark $layerz", function()
+    end)
+CreditsSection:NewLabel("Join The Discord! Link In The Group!", function()
+    end)
+CreditsSection:NewLabel("If there are any scripts that are buggy/patched or anything that wants to be added dm me on discord!", function()
+    end)
